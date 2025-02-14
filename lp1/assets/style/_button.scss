@@ -1,0 +1,17 @@
+.button {
+
+    a {
+        background-image: linear-gradient(90deg, #0271e0 0, #53a2f0 100%);
+        font-size: 2rem;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1;
+        padding: 1.7rem 4.2rem 1.7rem 4rem;
+        border-radius: 3.1rem;
+        text-align: center;
+    }
+
+    a:hover {
+        opacity: .5;
+    }
+}

@@ -1,0 +1,142 @@
+.point {
+    padding-top: 1rem;
+
+    @media (min-width: 768px) {
+        padding-top: 8.8rem;
+        padding-bottom: 2.4rem;
+    }
+
+}
+
+.point__title {
+    h2 {
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: #333;
+        line-height: 1;
+        margin: 0;
+        text-align: center;
+
+        @media (min-width: 768px) {
+            font-size: 3.6rem
+        }
+
+        span {
+            font-size: 4rem;
+            font-weight: 700;
+            color: #f11f8d;
+            font-family: 'Poppins', sans-serif;
+
+            @media (min-width: 768px) {
+                font-size: 5.4rem
+            }
+        }
+    }
+}
+
+.point__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-bottom: 3.4rem;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0 38rem;
+        margin-top: 4.3rem;
+        margin-bottom: 4.8rem;
+    }
+
+    .point__img--sp {
+        width: 34.3rem;
+        height: 22rem;
+
+        @media (min-width: 768px) {
+            display: none;
+        }
+    }
+
+    .point__img--pc {
+        display: none;
+
+        @media (min-width: 768px) {
+            display: block;
+            width: 56rem;
+            height: 34.6rem;
+        }
+    }
+}
+
+
+.point__text {
+    padding: 0 1.6rem;
+    margin-top: 1.6rem;
+
+    @media (min-width: 768px) {
+        width: 56rem;
+        padding: 0;
+        margin-top: .9rem;
+    }
+
+    h3 {
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: #f11f8d;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        margin: 0;
+        line-height: 1;
+
+        @media (min-width: 768px) {
+            font-size: 2.8rem;
+        }
+
+        span {
+            font-size: 3.6rem;
+            margin-left: .7rem;
+
+            @media (min-width: 768px) {
+                font-size: 4.2rem;
+            }
+        }
+    }
+
+    h4 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333;
+        margin: .8rem 0 0 0;
+        line-height: 1.4;
+
+        @media (min-width: 768px) {
+            font-size: 2.4rem;
+            line-height: 1.75;
+            margin-top: .3rem
+        }
+    }
+
+    p {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #333;
+        margin: 1rem 0 0 0;
+
+        @media (min-width: 768px) {
+            font-size: 1.6rem;
+            margin: 1.6rem 0 0 0;
+            line-height: 1.75;
+        }
+    }
+}
+
+
+.point__wrap--2 {
+    .point__container {
+        @media (min-width: 768px) {
+            flex-direction: row-reverse;
+        }
+    }
+}

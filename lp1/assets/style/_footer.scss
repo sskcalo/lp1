@@ -1,0 +1,17 @@
+.copy {
+    background-color: #ddd;
+    text-align: center;
+    padding: 2.6rem 0 3rem 1.5rem;
+
+    @media (min-width: 768px) {
+        padding: 2.6rem 0 4.5rem .1rem;
+    }
+
+    span {
+        font-size: 1.3rem;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1;
+        text-align: center;
+    }
+}
