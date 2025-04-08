@@ -1,5 +1,5 @@
 .main-visual {
-    background-image: url('../images/main-visual/mainVisual_sp_01.jpg');
+    background-image: url('/assets/images/main-visual/mainVisual_sp_01.jpg');
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     margin-bottom: 0;
 
     @media (min-width: 768px) {
-        background-image: url('../images/main-visual/mainVisual_pc_01.jpg');
+        background-image: url('/assets/images/main-visual/mainVisual_pc_01.jpg');
         top: 10.1rem;
         height: 65.1rem;
         margin-bottom: 0;
@@ -74,7 +74,7 @@
     content: "";
     width: 2.4rem;
     height: 6.8rem;
-    background-image: url('../images/main-visual/frame_left_01.png');
+    background-image: url('/assets/images/main-visual/frame_left_01.png');
     background-repeat: no-repeat;
     background-size: contain;
     top: 3.4rem;
@@ -93,7 +93,7 @@
     content: "";
     width: 2.4rem;
     height: 6.8rem;
-    background-image: url('../images/main-visual/frame_right_01.png');
+    background-image: url('/assets/images/main-visual/frame_right_01.png');
     background-repeat: no-repeat;
     background-size: contain;
     top: 3.4rem;
@@ -127,7 +127,7 @@
         }
     }
 
-    h1 {
+    h2 {
         margin: -1.1rem 0 0 0;
         font-size: 2.5rem;
         font-weight: 900;
